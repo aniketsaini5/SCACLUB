@@ -20,7 +20,7 @@ const Popup = ({ type, onClose }) => {
                     <>
                         <h2 className="popup-title">Upcoming Events</h2>
                         <h3 className="popup-subtitle">Engineering Day</h3>
-                        <p className="popup-description">Details about the Engineering Day event, including date and time.</p>
+                        <p className="popup-description"><i>-update soon</i></p>
                     </>
                 );
             case 'hackathons':
