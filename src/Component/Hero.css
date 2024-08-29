@@ -1,0 +1,63 @@
+/* src/Hero.css */
+
+.hero {
+    position: relative; /* Needed for positioning child elements */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    text-align: center; /* Center text */
+    height: 95vh; /* Almost full viewport height */
+    background: url('https://imgs.search.brave.com/AKnvYUW8MWHt3S3Ub9Ul1NrmEtaU5k4p4yPSh1IydE0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA3LzU3Lzk1Lzg4/LzM2MF9GXzc1Nzk1/ODg0OV9WbEN1N0gy/YlVYS1FHYVZDV3c5/STNTVXg4SkpZRzRi/MC5qcGc') no-repeat center center; /* Set background image and center it */
+    background-size: cover; /* Ensure the background image covers the entire hero section */
+    color: white; /* Text color */
+    padding: 1rem; /* Padding for better spacing on smaller screens */
+    box-sizing: border-box; /* Include padding in width and height calculations */
+}
+
+.hero::before {
+    content: ''; /* Create a pseudo-element for the blur effect */
+    position: absolute; /* Position it absolutely within the hero */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.365); /* Semi-transparent black overlay */
+    backdrop-filter: blur(2px); /* Apply the blur effect */
+    z-index: 1; /* Ensure the blur effect is below the content */
+}
+
+.hero-content {
+    position: relative; /* Position the content above the blur */
+    z-index: 2; /* Ensure content is above the blur effect */
+}
+
+.hero-heading {
+    font-size: 6rem; 
+    margin-bottom: 0.5rem; /* Space below the heading */
+}
+
+.hero-subheading {
+    font-size: 2rem; /* Use rem for responsive font size */
+    margin-bottom: 1rem; /* Space below the subheading */
+    color: #db7e37;
+}
+
+
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .hero {
+        height: 90vh; /* Adjust height for smaller screens */
+        background-position: center top; /* Align image to the top on smaller screens */
+    }
+
+    .hero-heading {
+        font-size: 4rem; /* Adjust font size for smaller screens */
+    }
+
+    .hero-subheading {
+        font-size: 1.2rem; /* Adjust font size for smaller screens */
+    }
+
+
+}

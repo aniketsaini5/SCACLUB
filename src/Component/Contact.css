@@ -1,0 +1,88 @@
+/* src/Contact.css */
+
+.contact {
+    padding: 2rem;
+    background-color: #151515; /* Light background color for the contact section */
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto; /* Center the container */
+    text-align: center; /* Center text */
+    color: #db7e37;
+}
+
+.contact-heading {
+    font-size: 2rem; /* Heading size */
+    margin-bottom: 1rem; /* Space below the heading */
+}
+
+.contact-description {
+    font-size: 1.1rem; /* Text size */
+    margin-bottom: 2rem; /* Space below the description */
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+    gap: 1rem; /* Space between form elements */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column; /* Stack label and input vertically */
+    text-align: left; /* Align text to the left */
+}
+
+.form-group label {
+    font-size: 1rem; /* Label text size */
+    margin-bottom: 0.5rem; /* Space below the label */
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Rounded corners for inputs */
+    font-size: 1rem; /* Input text size */
+    resize: none;
+}
+
+.contact-btn {
+    padding: 0.8rem 1.2rem;
+    background-color: #db7e37; /* Button background color */
+    color: #ffffff; /* Button text color */
+    border: none;
+    border-radius: 4px; /* Rounded corners for the button */
+    font-size: 1rem; /* Button text size */
+    cursor: pointer;
+}
+
+.contact-btn:focus {
+    background-color: #ffffff; /* Button hover background color */
+    color: #db7e37;
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border: 2px solid #db7e37;
+    outline: none; /* This line removes the default outline */
+}
+
+/* Media query for responsiveness */
+@media (max-width: 600px) {
+    .contact-container {
+        padding: 0 1rem; /* Add padding on smaller screens */
+    }
+
+    .contact-heading {
+        font-size: 1.5rem; /* Smaller heading size on smaller screens */
+    }
+
+    .contact-description {
+        font-size: 1rem; /* Smaller text size on smaller screens */
+    }
+
+    .contact-form {
+        gap: 0.8rem; /* Smaller gap between form elements */
+    }
+}

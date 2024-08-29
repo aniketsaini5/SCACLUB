@@ -1,0 +1,93 @@
+/* src/Header.css */
+
+/* src/Header.css */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #db7e37;
+    padding: 1rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.toggle-btn {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-items {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.nav-items.active {
+    display: block;
+}
+
+.logo img {
+    
+    height: 35px; /* Make the image responsive */
+    border-radius: 2px; /* Rounded corners for the image */
+    box-shadow: 0 4px 8px rgb(0, 0, 0); 
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .nav-items {
+        display: none;
+        /* Hide navigation items by default on small screens */
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #db894b;
+        ;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .nav-items.active {
+        display: flex;
+        /* Show navigation items when active */
+    }
+
+    .toggle-btn {
+        display: block;
+        /* Show the toggle button on small screens */
+    }
+}

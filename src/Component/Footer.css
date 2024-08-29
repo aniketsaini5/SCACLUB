@@ -1,0 +1,23 @@
+/* src/Footer.css */
+
+.footer {
+    background-color: #db7e37; /* Dark background color */
+    padding: 1rem 0; /* Vertical padding */
+    color: white; /* Text color */
+    text-align: center; /* Center the text */
+    position: relative; /* Ensure positioning for content alignment */
+    font-weight: bolder;
+}
+
+.footer-container {
+    max-width: 1200px; /* Optional: max width for container */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+.footer-copyright {
+    font-size: 1rem; /* Font size for the copyright text */
+}
+
+.footer-copyright p {
+    margin: 0; /* Remove default paragraph margin */
+}

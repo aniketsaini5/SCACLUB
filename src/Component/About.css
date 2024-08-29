@@ -1,0 +1,85 @@
+/* src/About.css */
+
+/* Customize scrollbar for WebKit browsers (Chrome, Safari, Edge) */
+
+/* Style the entire scrollbar */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+    height: 12px; /* Height of the scrollbar */
+}
+
+/* Style the scrollbar track */
+::-webkit-scrollbar-track {
+    background: #000000; /* Color of the track */
+    border-radius: 10px; /* Rounded corners for the track */
+}
+
+/* Style the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background-color: #db7e37; /* Color of the thumb */
+    border-radius: 10px; /* Rounded corners for the thumb */
+    border: 1px solid #ffffff; /* Adds padding and a border */
+}
+
+/* Optional: Style the scrollbar thumb when hovered */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #ff5722; /* Color when the thumb is hovered */
+}
+
+.about {
+    padding: 2rem;
+    background-color: #ffffff; /* Light background color for the about section */
+}
+
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto; /* Center the container */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+    gap: 2rem; /* Space between image and text */
+}
+
+.about-image img {
+    max-width: 100%; /* Make the image responsive */
+    border-radius: 8px; /* Rounded corners for the image */
+    box-shadow: 0 4px 8px rgb(0, 0, 0); /* Subtle shadow for depth */
+}
+
+.about-text {
+    max-width: 600px; /* Limit the width of the text area */
+}
+::selection {
+    background-color: #db7e37; /* Background color of the selected text */
+    color: #ffffff; /* Text color of the selected text */
+}
+
+.about-heading {
+    font-size: 2rem; /* Heading size */
+    margin-bottom: 1rem; /* Space below the heading */
+    color: #db7e37;
+    font-weight: bold;
+}
+
+.about-description {
+    font-size: 1.1rem; /* Text size */
+    line-height: 1.6; /* Line height for readability */
+    color: #db7e37;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        text-align: center; /* Center text for smaller screens */
+    }
+
+    .about-text {
+        max-width: 100%; /* Full width for text on smaller screens */
+    }
+
+    .about-image {
+        margin-bottom: 1.5rem; /* Space below the image on smaller screens */
+    }
+}

@@ -1,0 +1,85 @@
+.notes {
+    padding: 2rem;
+    background: rgb(20, 20, 20);
+}
+
+.notes-container {
+    max-width: 1200px;
+    margin: 0 auto; /* Center container */
+    padding: 1rem;
+}
+
+.notes-heading {
+    font-size: 2.5rem; /* Increased heading size for better prominence */
+    margin-bottom: 2rem; /* Increased space below heading */
+    text-align: center; /* Center heading text */
+    color: #db7e37;
+}
+
+.notes-content {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    gap: 2rem; /* Space between items */
+}
+
+.semester {
+    background: #ffffff; /* White background for semester sections */
+    border-radius: 8px; /* Rounded corners */
+    padding: 1.5rem; /* Padding inside items */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* Changed shadow color for better visibility */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
+}
+
+.semester:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+    box-shadow: 0 9px 18px rgba(255, 255, 255, 0.15); /* Increased shadow on hover */
+}
+
+.semester-title {
+    font-size: 1.8rem; /* Title size */
+    color: #db7e37;
+    margin: 0; /* Remove default margin */
+    text-align: center; /* Center title text */
+}
+
+.semester-title a {
+    color: #db7e37; /* Match title color */
+    text-decoration: none; /* Remove underline */
+}
+
+.semester-title a:hover {
+    color: #f0a500; /* Change color on hover */
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .notes-heading {
+        font-size: 2rem; /* Adjust heading size for smaller screens */
+    }
+
+    .notes-content {
+        gap: 1.5rem; /* Adjust space between items on smaller screens */
+    }
+
+    .semester {
+        padding: 1.2rem; /* Adjust padding for smaller screens */
+    }
+
+    .semester-title {
+        font-size: 1.6rem; /* Adjust title size for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .notes {
+        padding: 1rem; /* Reduce padding for very small screens */
+    }
+
+    .semester {
+        padding: 1rem; /* Further adjust padding for very small screens */
+    }
+
+    .semester-title {
+        font-size: 1.4rem; /* Further adjust title size for very small screens */
+    }
+}

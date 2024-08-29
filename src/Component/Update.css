@@ -1,0 +1,83 @@
+/* Main section styling */
+.updates {
+    padding: 2rem;
+    background-color: #f4f4f4; /* Light background for contrast */
+    min-height: 100vh; /* Ensures full viewport height */
+}
+
+/* Container for updates */
+.updates-container {
+    max-width: 1200px;
+    margin: 0 auto; /* Centers the container */
+    padding: 1rem;
+}
+
+/* Heading styles */
+.updates-heading {
+    font-size: 2rem; /* Font size for heading */
+    margin-bottom: 1.5rem; /* Spacing below heading */
+    text-align: center; /* Centers the heading text */
+    color: #db7e37; /* Custom color */
+}
+
+/* Flex container for update items */
+.updates-content {
+    display: flex;
+    flex-direction: column; /* Stacks items vertically */
+    gap: 1.5rem; /* Space between items */
+}
+
+/* Styling for each update item */
+.update-item {
+    background: #db7e37; /* Custom background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 1.5rem; /* Padding inside each item */
+    color: white; /* White text color for better contrast */
+    font-weight: bold; /* Bold text */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.update-item:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+}
+.update-item h3 a{
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+/* Update title styling */
+.update-title {
+    font-size: 1.5rem; /* Font size for titles */
+    margin-bottom: 0.5rem; /* Space below titles */
+}
+
+
+/* Update description styling */
+.update-description {
+    font-size: smaller; /* Font size for descriptions */
+    color: #fff; /* White text color for better contrast */
+}
+
+/* Media query for responsiveness on smaller screens */
+@media (max-width: 768px) {
+    .updates-content {
+        gap: 1rem; /* Adjusts spacing between items */
+    }
+
+    .update-item {
+        padding: 1rem; /* Adjust padding for smaller screens */
+    }
+
+    .updates-heading {
+        font-size: 1.75rem; /* Adjust heading font size for smaller screens */
+    }
+
+    .update-title {
+        font-size: 1.25rem; /* Adjust title font size for smaller screens */
+    }
+
+    .update-description {
+        font-size: 0.9rem; /* Adjust description font size for smaller screens */
+    }
+}

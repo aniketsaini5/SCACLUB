@@ -1,0 +1,34 @@
+/* BCA.css */
+
+.bca-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.bca-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.bca-notes-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bca-note-item {
+    margin-bottom: 10px;
+}
+
+.bca-note-item a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1rem;
+}
+
+.bca-note-item a:hover {
+    text-decoration: underline;
+}
