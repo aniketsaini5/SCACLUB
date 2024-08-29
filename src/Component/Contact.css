@@ -68,6 +68,22 @@
     outline: none; /* This line removes the default outline */
 }
 
+/* Popup styling */
+.popup {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #db7e37;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+
 /* Media query for responsiveness */
 @media (max-width: 600px) {
     .contact-container {
