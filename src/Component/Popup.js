@@ -31,7 +31,7 @@ const Popup = ({ type, onClose }) => {
                         <h3 className="popup-subtitle">Code Red</h3>
                         <p className="popup-description">Click on More Details for more information about the hackathon, including registration and prizes.</p>
                         <a href="https://unstop.com/hackathons/code-red-nitk-surathkal-1126425" target="_blank" rel="noopener noreferrer" className="popup-link">More Details</a> */}
-                        
+
                         <h2 className="popup-title">Hackathon</h2>
                         <h3 className="popup-subtitle">Upcoming</h3>
                     </>
@@ -43,15 +43,9 @@ const Popup = ({ type, onClose }) => {
                         <ul className="popup-list">
                             <li className="popup-list-item">
                                 <h3 className="popup-subtitle">	 CVENT</h3>
-                                <img src={imge} alt="Goldman Sachs" className="popup-image" />
+                                <img src={imge} alt="CVENT" className="popup-image" />
                                 <div className="popup-list-item-content">
-                                    <p className="popup-description">
-                                        <ul>
-                                            <li>Registration only done by your respective official Mail ID </li>
-                                            <li>Register by 2 September till 10AM</li>
-                                            <li>JD for this role attached to this mail, please read it carefully before applying</li>
-                                        </ul>
-                                    </p>
+                                    <p><i><strong>NOTE : </strong></i><small>Fillup the form thought offical email id</small></p>
                                     <a href="https://forms.gle/qKfz4mCkEWRWxKdcA" target="_blank" rel="noopener noreferrer" className="popup-link">Register Now</a>
                                 </div>
                             </li>
