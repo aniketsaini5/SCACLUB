@@ -26,11 +26,14 @@ const Popup = ({ type, onClose }) => {
             case 'hackathons':
                 return (
                     <>
-                        <h2 className="popup-title">Hackathon</h2>
+                        {/* <h2 className="popup-title">Hackathon</h2>
                         <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/opportunity/banner/66bf9bfd9347a_code-red.webp?d=1920x557" alt="Hackathon" className="popup-image" />
                         <h3 className="popup-subtitle">Code Red</h3>
                         <p className="popup-description">Click on More Details for more information about the hackathon, including registration and prizes.</p>
-                        <a href="https://unstop.com/hackathons/code-red-nitk-surathkal-1126425" target="_blank" rel="noopener noreferrer" className="popup-link">More Details</a>
+                        <a href="https://unstop.com/hackathons/code-red-nitk-surathkal-1126425" target="_blank" rel="noopener noreferrer" className="popup-link">More Details</a> */}
+                        
+                        <h2 className="popup-title">Hackathon</h2>
+                        <h3 className="popup-subtitle">Upcoming</h3>
                     </>
                 );
             case 'placement':
@@ -39,12 +42,20 @@ const Popup = ({ type, onClose }) => {
                         <h2 className="popup-title">Placement Drive</h2>
                         <ul className="popup-list">
                             <li className="popup-list-item">
-                                <h3 className="popup-subtitle">	Goldman Sachs</h3>
+                                <h3 className="popup-subtitle">	 CVENT</h3>
                                 <img src={imge} alt="Goldman Sachs" className="popup-image" />
                                 <div className="popup-list-item-content">
-                                    <a href="https://hdpc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LateralHiring/job/133401?mode=job&iis=LinkedIn" target="_blank" rel="noopener noreferrer" className="popup-link">Register Now</a>
+                                    <p className="popup-description">
+                                        <ul>
+                                            <li>Registration only done by your respective official Mail ID </li>
+                                            <li>Register by 2 September till 10AM</li>
+                                            <li>JD for this role attached to this mail, please read it carefully before applying</li>
+                                        </ul>
+                                    </p>
+                                    <a href="https://forms.gle/qKfz4mCkEWRWxKdcA" target="_blank" rel="noopener noreferrer" className="popup-link">Register Now</a>
                                 </div>
                             </li>
+
                             {/* Add more companies as needed */}
                         </ul>
                     </>

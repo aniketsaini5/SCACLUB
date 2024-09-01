@@ -36,22 +36,23 @@
     color: white; /* White text color for better contrast */
     font-weight: bold; /* Bold text */
     transition: transform 0.3s ease; /* Smooth transition for hover effect */
+    cursor: pointer; /* Pointer cursor to indicate clickable */
 }
 
 .update-item:hover {
     transform: translateY(-5px); /* Slight lift effect on hover */
 }
-.update-item h3 a{
-    text-decoration: none;
-    color: #ffffff;
-    
-}
+
 /* Update title styling */
 .update-title {
     font-size: 1.5rem; /* Font size for titles */
     margin-bottom: 0.5rem; /* Space below titles */
 }
 
+.update-title a {
+    text-decoration: none;
+    color: #ffffff;
+}
 
 /* Update description styling */
 .update-description {
