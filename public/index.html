@@ -2,35 +2,73 @@
 <html lang="en">
 
 <head>
+  <!-- Existing Meta Tags -->
   <meta charset="utf-8" />
   <link rel="icon" href="./clube_logo.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
   <meta name="description"
-    content="Coding Club Geeta University School of Computer Science and Application. To help Students by providing notes of Btech ,BCA ,MCA ,Mtech and  information about placement and HackaThons" />
-  <link rel="apple-touch-icon" href="logo.png" />
+    content="Coding Club Geeta University School of Computer Science and Application. To help Students by providing notes of Btech, BCA, MCA, Mtech and information about placement and Hackathons." />
 
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Coding Club - Geeta University">
+  <meta property="og:description"
+    content="Join the Coding Club at Geeta University for resources, coding challenges, hackathons, and placement info!">
+  <meta property="og:image" content="https://scaclub.vercel.app/logo.png">
+  <meta property="og:url" content="https://scaclub.vercel.app/">
+
+  <!-- Font Awesome for Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     integrity="sha512-+UoLC8HlURcth4Z6p5Uz9TVb/GRZ9fFsXEeI4hKMPxt3RihRlc8O8O3NZQ/4AEe8nE/S7QJ4mD0gF4QDOkg4qg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+  <!-- Google Fonts Preconnect -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap" rel="stylesheet">
+
+  <!-- CSS for Font Style -->
   <style>
     * {
       font-family: "Signika", sans-serif;
       font-optical-sizing: auto;
       font-weight: 600;
       font-style: normal;
-      font-variation-settings:
-        "GRAD" 0;
+      font-variation-settings: "GRAD" 0;
     }
   </style>
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
+  <!-- Web App Manifest -->
+  <link rel="manifest" href="/manifest.json" />
+
+  <!-- JSON-LD Structured Data for Google -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Coding Club - Geeta University",
+      "url": "https://scaclub.vercel.app/", <!-- Replace with actual URL -->
+      "logo": "https://scaclub.vercel.app/logo.png", <!-- Replace with actual URL -->
+      "description": "Follow the Coding Club at Geeta University for resources, coding challenges, hackathons, and placement info!",
+
+      "foundingDate": "2024", 
+      "founders": [
+        {
+          "@type": "Person",
+          "name": "Aniket Saini" 
+        }
+      ]
+    }
+  
+  </script>
+
+  <!-- Title -->
   <title>Coding Club</title>
 </head>
+
 
 <body>
   <div id="root"></div>

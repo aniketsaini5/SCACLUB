@@ -1,21 +1,16 @@
 {
-  "short_name": "Coding Club",
-  "name": "Coding Club Events Placement Hackathon Informatiion",
-  "icons": [
-    {
-      "src": "clube_logo.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    }
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Coding Club - Geeta University",
+  "url": "https://scaclub.vercel.app/", 
+  "logo": "https://scaclub.vercel.app/logo.png", 
+  "description": "Follow the Coding Club at Geeta University for resources, coding challenges, hackathons, and placement info!",
 
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "foundingDate": "2024", 
+  "founders": [
+    {
+      "@type": "Person",
+      "name": "Aniket Saini" 
+    }
+  ]
 }
