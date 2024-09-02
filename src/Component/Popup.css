@@ -17,9 +17,12 @@
     border-radius: 5px;
     width: 80%;
     max-width: 600px;
+    max-height: 93vh; /* Set maximum height to 99vh */
+    overflow-y: auto; /* Enable scrolling if content exceeds max height */
     position: relative;
     color: #ff8400;
 }
+
 
 .popup-title {
     margin: 0 0 10px;
@@ -50,22 +53,7 @@
     margin-bottom: 10px;
 }
 
-.popup-link {
-    display: inline-block;
-    text-decoration: none;
-    top: 10px;
-    right: 10px;
-    background: #ff7300;
-    border: none;
-    color: #fff;
-    padding: 5px 10px;
-    cursor: pointer;
-    border-radius: 5px;
-}
 
-.popup-link:hover {
-    text-decoration: none;
-}
 
 .popup-close {
     position: absolute;
@@ -77,4 +65,59 @@
     padding: 5px 10px;
     cursor: pointer;
     border-radius: 5px;
+}
+
+.Date{
+    font-size: small;;
+    color: rgb(107, 110, 110);
+    font-weight: 600;
+    padding-left: 20%;
+}
+
+.popup-subtitle-event {
+    display: flex;
+    justify-content: space-between; /* Distributes space between items */
+    align-items: center; /* Aligns items vertically center */
+    margin: 10px 0;
+    color: black;
+}
+
+.popup-title-left {
+    flex: 1; /* Allows it to take up available space */
+    text-align: left; /* Align text to the left */
+}
+
+.popup-title-right {
+    text-align: right; /* Align text to the right */
+}
+
+.Date {
+    font-size: small;
+    color: rgb(107, 110, 110);
+    font-weight: 600;
+}
+
+.popup-links {
+    display: flex;           /* Enables flexbox */
+    justify-content: space-between;  /* Places items at the ends */
+    align-items: center;     /* Centers items vertically */
+    margin-top: 15px;        /* Adds some space above the container */
+}
+
+.popup-link {
+    text-decoration: none;   /* Removes underline from links */
+    background: #ff7300;     /* Background color */
+    color: #fff;             /* Text color */
+    padding: 5px 10px;       /* Padding for better click area */
+    border-radius: 5px;      /* Rounded corners */
+}
+
+.popup-link:hover {
+    text-decoration: none;   /* Ensures no underline on hover */
+    opacity: 0.9;            /* Slight opacity change on hover for effect */
+}
+
+#rulebook{
+    color: white;
+    background-color: rgb(21, 214, 21);
 }
