@@ -30,6 +30,19 @@ const Popup = ({ type, onClose }) => {
 
                         <img src={image} alt="engineering day" className="popup-image" />
 
+                        <p className="popup-description" >Lineup of events:
+                            <ul>
+                                <li>Syntax Sprint (Coding Relay) 💻</li>
+                                <li> Artificial Hilarious (Stand-Up Comedy) 🎤</li>
+                                <li> Creation in Motion (Model Exhibition) 🏗️ </li>
+                                <li>Inspire and Create (Slogan Writing) ✍️</li>
+                                <li>Treasure Hunt</li>
+                            </ul>
+                            <hr></hr>
+                            🗓️ Date: 14th September<br></br>
+                            📍 Venue: C Block<br></br>
+                            ⏰ Time: 10:00 AM  </p>
+
                         <div className="popup-links">
                             <a href="https://forms.gle/7jVuNSh9GCEivoAA9" target="_blank" rel="noopener noreferrer" className="popup-link">
                                 Register Now
