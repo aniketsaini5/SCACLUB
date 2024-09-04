@@ -17,7 +17,7 @@
     border-radius: 5px;
     width: 80%;
     max-width: 600px;
-    max-height: 87vh; /* Set maximum height to 99vh */
+    max-height: 85vh; /* Set maximum height to 99vh */
     overflow-y: auto; /* Enable scrolling if content exceeds max height */
     position: relative;
     color: #ff8400;

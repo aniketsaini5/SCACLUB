@@ -84,6 +84,36 @@ const Popup = ({ type, onClose }) => {
                                     <a href="https://forms.gle/qKfz4mCkEWRWxKdcA" target="_blank" rel="noopener noreferrer" className="popup-link">Register Now</a>
                                 </div>
                             </li>
+                            <hr></hr>
+                            <li className="popup-list-item">
+                                <h3 className="popup-subtitle">I2V Systems</h3>
+                                <img src={imge} alt="CVENT" className="popup-image" />
+                                <div className="popup-list-item-content">
+                                    <ul>
+                                        <li>
+                                            Last date :- 04th of September 2024 Till 06:00 PM
+
+                                        </li>
+
+                                        <li>
+                                            Students must registered by Only Official Mail ID
+
+                                        </li>
+
+                                        <li>
+                                            Students must registered on both the link
+                                        </li>
+                                    </ul>
+                                    <div className="popup-links">
+                            <a href="https://forms.gle/UYvgsWCTP1DaA9Qu8" target="_blank" rel="noopener noreferrer" className="popup-link">
+                                Register Now
+                            </a>
+                            <a href="https://forms.gle/VMjQUhPPazY9QW9n6" target="_blank" rel="noopener noreferrer" className="popup-link">
+                                GU Register Link 
+                            </a>
+                        </div>
+                                </div>
+                            </li>
 
                             {/* Add more companies as needed */}
                         </ul>
