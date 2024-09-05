@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import './Popup.css';
 import imge from './placement-img/image.png';
+import img2 from './placement-img/image2.png';
 import image from './resource/img.jpeg';
 import pdf from './resource/Rule Book.pdf';
 
@@ -85,35 +86,18 @@ const Popup = ({ type, onClose }) => {
                                 </div>
                             </li>
                             <hr></hr>
+
                             <li className="popup-list-item">
-                                <h3 className="popup-subtitle">I2V Systems</h3>
-                                <img src={imge} alt="CVENT" className="popup-image" />
+                                <h3 className="popup-subtitle">	 Josh Technology Group</h3>
+                                <img src={img2} alt="CVENT" className="popup-image" />
                                 <div className="popup-list-item-content">
-                                    <ul>
-                                        <li>
-                                            Last date :- 04th of September 2024 Till 06:00 PM
-
-                                        </li>
-
-                                        <li>
-                                            Students must registered by Only Official Mail ID
-
-                                        </li>
-
-                                        <li>
-                                            Students must registered on both the link
-                                        </li>
-                                    </ul>
-                                    <div className="popup-links">
-                            <a href="https://forms.gle/UYvgsWCTP1DaA9Qu8" target="_blank" rel="noopener noreferrer" className="popup-link">
-                                Register Now
-                            </a>
-                            <a href="https://forms.gle/VMjQUhPPazY9QW9n6" target="_blank" rel="noopener noreferrer" className="popup-link">
-                                GU Register Link 
-                            </a>
-                        </div>
+                                    <p><i><strong>NOTE : </strong></i><small>Fillup the form thought offical email id</small></p>
+                                    <a href="https://geetauniversity.pod.ai/d/yykZdC/placement-registrations/qaDMS4I0bYNtM05XJl_w7CnEg2HeL-LIsTNkPmMeyy76Igcq7pEYc9eHpUCvFeTbmQYT93OIVR7ccquqqeyUDQ/7b5ce5ec31de8453fd2119893c005a12cc2ef1ce/" target="_blank" rel="noopener noreferrer" className="popup-link">Register Now</a>
                                 </div>
                             </li>
+
+                            
+                        
 
                             {/* Add more companies as needed */}
                         </ul>
