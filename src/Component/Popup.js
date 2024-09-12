@@ -25,7 +25,7 @@ const Popup = ({ type, onClose }) => {
                         <h3 className="popup-subtitle-event">
                             <span className="popup-title-left">Engineering Day</span>
                             <span className="popup-title-right">
-                                <i><small className="Date">14 September 2024</small></i>
+                                <i><small className="Date">13 September 2024</small></i>
                             </span>
                         </h3>
 
@@ -40,13 +40,13 @@ const Popup = ({ type, onClose }) => {
                                 <li>Treasure Hunt</li>
                             </ul>
                             <hr></hr>
-                            🗓️ Date: 14th September<br></br>
-                            📍 Venue: C Block<br></br>
-                            ⏰ Time: 10:00 AM  </p>
+                            🗓️ Date: 13th September<br></br>
+                            
+                            </p>
 
                         <div className="popup-links">
-                            <a href="https://forms.gle/7jVuNSh9GCEivoAA9" target="_blank" rel="noopener noreferrer" className="popup-link">
-                                Register Now
+                            <a href="https://forms.gle/7jVuNSh9GCEivoAA9" disabled target="_blank" rel="noopener noreferrer" className="popup-link">
+                                Register Closed
                             </a>
                             <a href={pdf} target="_blank" rel="noopener noreferrer" className="popup-link" id="rulebook" download={pdf}>
                                 Download Rulebook
@@ -62,14 +62,14 @@ const Popup = ({ type, onClose }) => {
             case 'hackathons':
                 return (
                     <>
-                        <h2 className="popup-title">Hackathon</h2>
+                        {/* <h2 className="popup-title">Hackathon</h2>
                         <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-66ab7658502ef_listing_image_ml_challenge__1_.jpg?d=200x2007" alt="Hackathon" className="popup-image" />
                         <h3 className="popup-subtitle">Amazon ML</h3>
                         <p className="popup-description">Click on More Details for more information about the hackathon, including registration and prizes.</p>
-                        <a href="https://unstop.com/hackathons/amazon-ml-challenge-amazon-1100713" target="_blank" rel="noopener noreferrer" className="popup-link">More Details</a>
+                        <a href="https://unstop.com/hackathons/amazon-ml-challenge-amazon-1100713" target="_blank" rel="noopener noreferrer" className="popup-link">More Details</a> */}
 
-                        {/* <h2 className="popup-title">Hackathon</h2>
-                        <h3 className="popup-subtitle">Upcoming</h3> */}
+                        <h2 className="popup-title">Hackathon</h2>
+                        <h3 className="popup-subtitle">Upcoming</h3>
                     </>
                 );
             case 'placement':
@@ -95,9 +95,6 @@ const Popup = ({ type, onClose }) => {
                                     <a href="https://geetauniversity.pod.ai/d/yykZdC/placement-registrations/qaDMS4I0bYNtM05XJl_w7CnEg2HeL-LIsTNkPmMeyy76Igcq7pEYc9eHpUCvFeTbmQYT93OIVR7ccquqqeyUDQ/7b5ce5ec31de8453fd2119893c005a12cc2ef1ce/" target="_blank" rel="noopener noreferrer" className="popup-link">Register Now</a>
                                 </div>
                             </li>
-
-                            
-                        
 
                             {/* Add more companies as needed */}
                         </ul>
