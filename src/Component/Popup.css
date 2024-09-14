@@ -116,12 +116,12 @@
     text-decoration: none;   /* Ensures no underline on hover */
     opacity: 0.9;            /* Slight opacity change on hover for effect */
 }
-
+/* RULEBOOK FOR EVENT*/
 #rulebook{
     color: white;
     background-color: rgb(21, 214, 21);
 }
-
+/* JOB FOR PLACEMENT*/
 #jobrole{
     color: white;
     background-color: rgb(214, 21, 21);
