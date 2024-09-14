@@ -2,8 +2,7 @@ import React, { useEffect } from 'react';
 import './Popup.css';
 import imge from './placement-img/image.png';
 import img2 from './placement-img/image2.png';
-import image from './resource/img.jpeg';
-import pdf from './resource/Rule Book.pdf';
+import pdf from './resource/Job Description __ Business Development.pdf';
 
 const Popup = ({ type, onClose }) => {
     useEffect(() => {
@@ -21,7 +20,7 @@ const Popup = ({ type, onClose }) => {
             case 'events':
                 return (
                     <>
-                        <h2 className="popup-title">Event</h2>
+                        {/* <h2 className="popup-title">Event</h2>
                         <h3 className="popup-subtitle-event">
                             <span className="popup-title-left">Engineering Day</span>
                             <span className="popup-title-right">
@@ -51,12 +50,12 @@ const Popup = ({ type, onClose }) => {
                             <a href={pdf} target="_blank" rel="noopener noreferrer" className="popup-link" id="rulebook" download={pdf}>
                                 Download Rulebook
                             </a>
-                        </div>
+                        </div> */}
 
 
-                        {/* <h2 className="popup-title">Upcoming Events</h2>
-                        <h3 className="popup-subtitle">Engineering Day</h3>
-                        <p className="popup-description"><i>-update soon</i></p> */}
+                        <h2 className="popup-title">Upcoming Events</h2>
+                        <h3 className="popup-subtitle">Fresher Party</h3>
+                        <p className="popup-description"><i>-update soon</i></p>
                     </>
                 );
             case 'hackathons':
@@ -78,11 +77,18 @@ const Popup = ({ type, onClose }) => {
                         <h2 className="popup-title">Placement Drive</h2>
                         <ul className="popup-list">
                             <li className="popup-list-item">
-                                <h3 className="popup-subtitle">	 CVENT</h3>
-                                <img src={imge} alt="CVENT" className="popup-image" />
+                                <h3 className="popup-subtitle">	 	Edu-Versity</h3>
+                                <img src={imge} alt="Edu-Versity" className="popup-image" />
                                 <div className="popup-list-item-content">
                                     <p><i><strong>NOTE : </strong></i><small>Fillup the form thought offical email id</small></p>
-                                    <a href="https://forms.gle/qKfz4mCkEWRWxKdcA" target="_blank" rel="noopener noreferrer" className="popup-link">Register Now</a>
+                                    <div className="popup-links">
+                                        <a href="https://forms.gle/dRn8NsoU47mY2BYXA" disabled target="_blank" rel="noopener noreferrer" className="popup-link">
+                                            Register Link
+                                        </a>
+                                        <a href={pdf} target="_blank" rel="noopener noreferrer" className="popup-link" id="jobrole" download={pdf}>
+                                            Download JobRole Pdf
+                                        </a>
+                                    </div>
                                 </div>
                             </li>
                             <hr></hr>
