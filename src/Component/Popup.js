@@ -61,14 +61,45 @@ const Popup = ({ type, onClose }) => {
             case 'hackathons':
                 return (
                     <>
-                        {/* <h2 className="popup-title">Hackathon</h2>
-                        <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-66ab7658502ef_listing_image_ml_challenge__1_.jpg?d=200x2007" alt="Hackathon" className="popup-image" />
-                        <h3 className="popup-subtitle">Amazon ML</h3>
-                        <p className="popup-description">Click on More Details for more information about the hackathon, including registration and prizes.</p>
-                        <a href="https://unstop.com/hackathons/amazon-ml-challenge-amazon-1100713" target="_blank" rel="noopener noreferrer" className="popup-link">More Details</a> */}
+                        <h2 className="popup-title">Hackathon</h2>
+                        <img src="https://pps.whatsapp.net/v/t61.24694-24/458495546_919264830032610_4756055277738111373_n.jpg?ccb=11-4&oh=01_Q5AaILNC67TsPFwR3rVBX9w_8_llKVBfxQZUXD1LZJQEUsBb&oe=66F82DBB&_nc_sid=5e03e0&_nc_cat=105" alt="Hackathon" className="popup-image" />
+                        <h3 className="popup-subtitle">Innovortex 2.0</h3>
+                        <p className="popup-description">CInnoVortex 2.0 – Registrations Now Open! 🚀
+
+                            We are excited to announce that registrations are now open for InnoVortex 2.0, and we invite you to participate in this thrilling event! It’s time to bring your ideas, skills, and energy to the table and showcase your talents.
+
+                            Follow these simple steps to register:
+
+                            1️⃣ Step 1: Register on HackQuest using the link below.
+                            2️⃣ Step 2: Create your Open Campus ID using the following link:
+
+                            <a href="https://id.opencampus.xyz/referral/hackquest">LINK OF CAMPUS ID</a>
+
+                            Deadline: 20th September 2024
+                            Registration Link:
+
+                            <a href= "https://www.hackquest.io/en/hackathon/explore/InnoVortex-2O">Registration Link</a>
+
+                            Here are the participation categories:
+
+                            1️⃣ Ideathon – For freshers (1st year) who are full of ideas but don’t have coding experience. 💡
+                            2️⃣ Reimagine – For intermediates (1st & 2nd year) who are ready to rethink and rebuild. 🔄
+                            3️⃣ Hackathon – For coding experts (2nd, 3rd & 4th year) eager to flex their skills. 💻⚡️
+
+                            Don’t miss out on this amazing opportunity – register now and take your first step toward innovation and success!
+
+                            Join the WhatsApp group for details about innoVortex 2.0
+                            <a href="https://chat.whatsapp.com/BXgbGaBhEDx2U72D85CV85">JOIN WHATAPP</a>
+
+                            Social links 🖇️
+                            <a href= "https://www.instagram.com/aniketsaini_5/">for more Details content me </a>
+
+                            Best regards,
+                            TechNeeds Society, IGDTUW</p>
+                        {/* <a href="https://unstop.com/hackathons/amazon-ml-challenge-amazon-1100713" target="_blank" rel="noopener noreferrer" className="popup-link">More Details</a>
 
                         <h2 className="popup-title">Hackathon</h2>
-                        <h3 className="popup-subtitle">Upcoming</h3>
+                        <h3 className="popup-subtitle">Upcoming</h3> */}
                     </>
                 );
             case 'placement':
