@@ -85,8 +85,8 @@ const Popup = ({ type, onClose }) => {
                             <p></p>
                             <p></p>
                             <a className="popup-link" href="https://www.hackquest.io/en/hackathon/explore/InnoVortex-2O">Registration Link</a><br></br>
-                            <p></p>
-                            <p></p>
+                            <p></p><br></br>
+                            <p></p><br></br>
                             <p></p>
                             <p></p>
                             <hr></hr>
