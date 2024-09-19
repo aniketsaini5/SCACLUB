@@ -77,17 +77,17 @@ const Popup = ({ type, onClose }) => {
                             <p></p>
                             <p></p>
                             <a href="https://id.opencampus.xyz/referral/hackquest">LINK OF CAMPUS ID</a><br></br>
+                            <p></p>
+                            <p></p>
 
                             <i> Deadline: 20th September 2024 </i><br></br>
                             Registration Link:<br></br>
                             <p></p>
                             <p></p>
-                            <p></p>
-                            <p></p>
+                    
                             <a className="popup-link" href="https://www.hackquest.io/en/hackathon/explore/InnoVortex-2O">Registration Link</a><br></br>
                             <p></p><br></br>
                             <p></p><br></br>
-                            <p></p>
                             <p></p>
                             <hr></hr>
                             Here are the participation categories:
