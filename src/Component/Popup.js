@@ -76,7 +76,7 @@ const Popup = ({ type, onClose }) => {
                             2️⃣ Step 2: Create your Open Campus ID using the following link:<br></br>
                             <p></p>
                             <p></p>
-                            <a href="https://id.opencampus.xyz/referral/hackquest">LINK OF CAMPUS ID</a><br></br>
+                            <a  className="popup-link" href="https://id.opencampus.xyz/referral/hackquest">LINK OF CAMPUS ID</a><br></br>
                             <p></p>
                             <p></p>
 
@@ -86,8 +86,7 @@ const Popup = ({ type, onClose }) => {
                             <p></p>
                     
                             <a className="popup-link" href="https://www.hackquest.io/en/hackathon/explore/InnoVortex-2O">Registration Link</a><br></br>
-                            <p></p><br></br>
-                            <p></p><br></br>
+                            <p></p>
                             <p></p>
                             <hr></hr>
                             Here are the participation categories:
@@ -100,6 +99,8 @@ const Popup = ({ type, onClose }) => {
 
                             Don’t miss out on this amazing opportunity – register now and take your first step toward innovation and success!
                             <hr></hr>
+                            <p></p>
+                            <p></p>
 
                             Join the WhatsApp group for details about innoVortex 2.0<br></br>
                             <a className="popup-link" href="https://chat.whatsapp.com/BXgbGaBhEDx2U72D85CV85">JOIN WHATAPP</a><br></br>
