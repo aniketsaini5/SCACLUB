@@ -82,7 +82,13 @@ const Popup = ({ type, onClose }) => {
                             Registration Link:<br></br>
                             <p></p>
                             <p></p>
+                            <p></p>
+                            <p></p>
                             <a className="popup-link" href="https://www.hackquest.io/en/hackathon/explore/InnoVortex-2O">Registration Link</a><br></br>
+                            <p></p>
+                            <p></p>
+                            <p></p>
+                            <p></p>
                             <hr></hr>
                             Here are the participation categories:
                             <hr></hr>
@@ -101,8 +107,12 @@ const Popup = ({ type, onClose }) => {
                             Social links 🖇️<br></br>
                             <p></p>
                             <p></p>
-                            <a className="popup-link" href="https://www.instagram.com/aniketsaini_5/">for more Details content me </a><br></br>
 
+                            <a className="popup-link" href="https://www.instagram.com/aniketsaini_5/">for more Details content me </a><br></br>
+                            <p></p>
+                            <p></p>
+                            <p></p>
+                            <p></p>
                             Best regards,<br></br>
                             TechNeeds Society, IGDTUW</p>
                         {/* <a href="https://unstop.com/hackathons/amazon-ml-challenge-amazon-1100713" target="_blank" rel="noopener noreferrer" className="popup-link">More Details</a>
