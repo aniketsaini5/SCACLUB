@@ -74,12 +74,14 @@ const Popup = ({ type, onClose }) => {
 
                             1️⃣ Step 1: Register on HackQuest using the link below.<br></br>
                             2️⃣ Step 2: Create your Open Campus ID using the following link:<br></br>
-
+                            <p></p>
+                            <p></p>
                             <a href="https://id.opencampus.xyz/referral/hackquest">LINK OF CAMPUS ID</a><br></br>
 
                             <i> Deadline: 20th September 2024 </i><br></br>
                             Registration Link:<br></br>
-
+                            <p></p>
+                            <p></p>
                             <a className="popup-link" href="https://www.hackquest.io/en/hackathon/explore/InnoVortex-2O">Registration Link</a><br></br>
                             <hr></hr>
                             Here are the participation categories:
@@ -97,6 +99,8 @@ const Popup = ({ type, onClose }) => {
                             <a className="popup-link" href="https://chat.whatsapp.com/BXgbGaBhEDx2U72D85CV85">JOIN WHATAPP</a><br></br>
                             <hr></hr>
                             Social links 🖇️<br></br>
+                            <p></p>
+                            <p></p>
                             <a className="popup-link" href="https://www.instagram.com/aniketsaini_5/">for more Details content me </a><br></br>
 
                             Best regards,<br></br>
