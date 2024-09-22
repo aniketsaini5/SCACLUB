@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import './Popup.css';
 import imge from './placement-img/image.png';
 import img2 from './placement-img/image2.png';
-import pdf from './resource/Job Description __ Business Development.pdf';
+import pdf from './resource/Job Decription-Management Trainee.pdf';
 
 const Popup = ({ type, onClose }) => {
     useEffect(() => {
@@ -128,12 +128,12 @@ const Popup = ({ type, onClose }) => {
                         <h2 className="popup-title">Placement Drive</h2>
                         <ul className="popup-list">
                             <li className="popup-list-item">
-                                <h3 className="popup-subtitle">	 	Edu-Versity</h3>
+                                <h3 className="popup-subtitle">Skytrails Pvt. Ltd. </h3>
                                 <img src={imge} alt="Edu-Versity" className="popup-image" />
                                 <div className="popup-list-item-content">
                                     <p><i><strong>NOTE : </strong></i><small>Fillup the form thought offical email id</small></p>
                                     <div className="popup-links">
-                                        <a href="https://forms.gle/dRn8NsoU47mY2BYXA" disabled target="_blank" rel="noopener noreferrer" className="popup-link">
+                                        <a href="https://forms.gle/TMHBh7c7gtKPcMEF8" disabled target="_blank" rel="noopener noreferrer" className="popup-link">
                                             Register Link
                                         </a>
                                         <a href={pdf} target="_blank" rel="noopener noreferrer" className="popup-link" id="jobrole" download={pdf}>
